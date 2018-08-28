@@ -1,3 +1,4 @@
+import os
 class house():
     def __init__(self):
         self.name = "绿野别墅"
@@ -35,4 +36,5 @@ hscp.abed()
 
 for i in hscp.list:
     print("总面积是:%d"%i)
+
 
